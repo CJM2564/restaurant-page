@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Design 1 Project 1 Restaurant Page">
+    <title>The Happiest Hour</title>
+    <link rel="stylesheet" href="css/restaurantcss.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>The Happiest Hour</h1>
+        <p>Welcome to the most delightful hour</p>
+    </header>
+
+    <nav>
+        <a href="#menu" onclick="scrollToSection('menu')">Menu</a>
+        <a href="#about" onclick="scrollToSection('about')">About Us</a>
+        <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+    </nav>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu-list">
+            <li>
+                <h3>Appetizers</h3>
+                <p>Enjoy our iconic, tasty appetizers.</p>
+                <ul>
+                    <li> Fries $3</li>
+                    <li> Chips and Salsa $4</li>
+                    <li> Chicken Strips $6</li>
+                </ul>
+                <img src="assets/burrito.jpg" alt="Burrito cut in half with sauce on a white plate with orange border" style="width: 100%;">
+            </li>
+            <li>
+                <h3>Main Courses</h3>
+                <p>Explore our award-winning main courses.</p>
+                <ul>
+                    <li> Chicken and Waffles $10</li>
+                    <li> Burrito $8</li>
+                </ul>
+                <img src="assets/chicken_waffles.jpg" alt="Chicken and Waffles on a plate with hand pouring syrup" style="width: 100%;">
+            </li>
+            <li>
+                <h3>Desserts</h3>
+                <p>Get lost in our cheerfully sweet desserts.</p>
+                <ul>
+                    <li> Slice of Seven Layer Cake $4</li>
+                    <li> Cookies $1.50/each</li>
+                </ul>
+                <img src="assets/food.jpg" alt="Assortment of food and drinks at a booth corner table" style="width: 100%;">
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The name <span>The Happiest Hour</span> represents everyone's favorite time of the day, happy hour. We are located in the heart of the West Village, easily accessible by train and bus.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: info@happiesthournyc.com</p>
+        <p>Address: 121 West 10th Street, New York, NY</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 The Happiest Hour NYC. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
